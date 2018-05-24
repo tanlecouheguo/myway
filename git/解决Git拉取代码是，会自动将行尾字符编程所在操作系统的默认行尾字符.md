@@ -1,5 +1,5 @@
 # 解决Git拉取代码是，会自动将行尾字符编程所在操作系统的默认行尾字符
-如果是linux和windows混合开发，很容易会遇到行尾换行符的问题，windows下默认是\r\n，linux下是\n。如果没做处理，git提交时很有可能产生问题，解决办法为设置git config的 core.autocrlf
+如果是`linux`和`windows`混合开发，很容易会遇到行尾换行符的问题，windows下默认是`\r\n`，linux下是`\n`。如果没做处理，git提交时很有可能产生问题，解决办法为设置`git config`的 `core.autocrlf`
 
 ## 关闭自动改变默认行尾字符功能的两种方式
 
