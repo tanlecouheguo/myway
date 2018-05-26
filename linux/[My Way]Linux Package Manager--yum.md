@@ -8,20 +8,36 @@ Fedora和RedHat以及CentOS系统默认自带
 
 ## yum 使用
 * install 安装软件包
-    >yum install 包名
+
+        yum install 包名
+
 * -y 自动应答yes
-    >yum install -y 包名
+
+        yum install -y 包名
+
 * reinstall 重新安装包
-    >yum reinstall 包名
+
+        yum reinstall 包名
+
 * update 更新包
-    >yum update 包名
+
+        yum update 包名
+
 * remove 删除软件包
-    >yum remove 包名
+
+        yum remove 包名
+
 * provides 查找程序由哪个包提供
-    >yum provides fuser
+
+        yum provides fuser
+
 * list installed 已安装的包
-    >yum list installed
+
+        yum list installed
+
 * search [关键字] 搜索包
-    >yum search netstat
+
+        yum search netstat
+        
 
 

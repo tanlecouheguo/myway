@@ -3,7 +3,7 @@
 ## strace 简介
 strace是一种有用的诊断、指导和调试工具。系统管理员，诊断专家和解决问题的人将会发现它对于解决问题是无价的。由于不需要重新编译源代码以跟踪它们，所以无法很容易地找到源文件的问题。学生，黑客和过分好奇的人会发现，通过追踪甚至是普通的程序，可以了解到一个系统及其系统调用。程序员会发现由于系统调用和信号是在用户/内核接口中发生的事件，因此对这个边界进行仔细的检查对于bug隔离和清醒非常有用。
 ## strace 安装
->yum install strace
+    yum install strace
 ## strace 语法
     strace [-CdffhikqrtttTvVxxy] [-In] [-bexecve] [-eexpr]...  [-acolumn] [-ofile] [-sstrsize] [-Ppath]... -ppid... / [-D] [-Evar[=val]]... [-uusername] command [args]
 

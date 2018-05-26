@@ -3,7 +3,7 @@
 ## ps 简介
 报告当前进程的快照
 ## ps 语法
->ps [options]
+    ps [options]
 ## ps 使用
     a 列出所有具有终端(tty)的进程，或者在与x选项一起使用时列出所有进程
 
@@ -25,10 +25,12 @@
 
     p pidlist 根据pid列表查询
 
->ps aux     
->ps u -u root   
->ps u -g root   
->ps u p 1   
+## 使用案例
+
+    ps aux     
+    ps u -u root   
+    ps u -g root   
+    ps u p 1   
 
 
 ## 其他使用方式
